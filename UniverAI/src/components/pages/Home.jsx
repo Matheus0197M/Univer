@@ -6,7 +6,7 @@ export default function Home() {
 
   return (
     <div>
-      <h1>Bem-vindo ao Univer AI</h1>
+      <h1>Terminal 33</h1>
       <p>Uma plataforma simples para compartilhar suas ideias</p>
 
       {!isAuthenticated && (

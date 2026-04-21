@@ -1,4 +1,6 @@
-.counter {
+/* PARTE DA IA -- CÓDIGO NÃO UTILIZADO */
+
+/* .counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -181,4 +183,33 @@
     right: 0;
     border-right-color: var(--border);
   }
+} */
+
+/* PARTE MINHA  -  MEU CÓDIGO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-image: url("../src/assets/bg1.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #c4e9ff;
+  display: grid;
+  place-items: center;
+  height: 100dvh;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  text-align: center;
+  color: #222;
+}
+
+.container {
+  background: scroll;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
